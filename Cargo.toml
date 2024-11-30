@@ -18,3 +18,7 @@ anyhow = "1.0"
 [[example]]
 name = "ch01_wgpu_info"
 path = "examples/ch01/wgpu_info.rs"
+
+[[example]]
+name = "ch01_triangle_vertex_color"
+path = "examples/ch01/triangle_vertex_color.rs"
