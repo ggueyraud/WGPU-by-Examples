@@ -22,3 +22,7 @@ path = "examples/ch01/wgpu_info.rs"
 [[example]]
 name = "ch01_triangle_vertex_color"
 path = "examples/ch01/triangle_vertex_color.rs"
+
+[[example]]
+name = "ch01_triangle_primitive"
+path = "examples/ch01/triangle_primitive.rs"
