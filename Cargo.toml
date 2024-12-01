@@ -14,6 +14,7 @@ log = "0.4"
 pollster = "0.2"
 winit = "0.28"
 anyhow = "1.0"
+bytemuck = { version = "1.20.0", features = ["derive"] }
 
 [[example]]
 name = "ch01_wgpu_info"
@@ -26,3 +27,7 @@ path = "examples/ch01/triangle_vertex_color.rs"
 [[example]]
 name = "ch01_triangle_primitive"
 path = "examples/ch01/triangle_primitive.rs"
+
+[[example]]
+name = "ch01_triangle_gpu_buffer"
+path = "examples/ch01/triangle_gpu_buffer.rs"
